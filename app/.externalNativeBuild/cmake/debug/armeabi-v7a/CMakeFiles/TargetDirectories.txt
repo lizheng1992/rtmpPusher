@@ -1,0 +1,6 @@
+/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/pusher.dir
+/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a/src/main/cpp/include/librtmp/CMakeFiles/edit_cache.dir
+/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a/src/main/cpp/include/librtmp/CMakeFiles/rebuild_cache.dir
+/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/debug/armeabi-v7a/src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir

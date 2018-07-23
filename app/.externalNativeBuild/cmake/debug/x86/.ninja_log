@@ -1,0 +1,23 @@
+# ninja log v5
+1	91	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/parseurl.c.o	a59bbe9ef0ea1ecb
+1	93	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/hashswf.c.o	ffecba9b43642da7
+1	93	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/log.c.o	d56dba5c60a594b
+0	123	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/amf.c.o	5b14c3de307c36dc
+2	243	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/rtmp.c.o	9461c70f4d55c9aa
+244	361	0	src/main/cpp/include/librtmp/librtmp.a	5d7759ee9b5401b0
+361	568	0	CMakeFiles/pusher.dir/src/main/cpp/pusher.cpp.o	bb7472a6589bdf84
+569	700	0	../../../../build/intermediates/cmake/debug/obj/x86/libpusher.so	56cadb3a50ebf7ed
+3	78	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/parseurl.c.o	a59bbe9ef0ea1ecb
+2	80	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/log.c.o	d56dba5c60a594b
+2	82	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/hashswf.c.o	ffecba9b43642da7
+1	122	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/amf.c.o	5b14c3de307c36dc
+3	242	0	src/main/cpp/include/librtmp/CMakeFiles/rtmp.dir/rtmp.c.o	9461c70f4d55c9aa
+242	284	0	src/main/cpp/include/librtmp/librtmp.a	5d7759ee9b5401b0
+285	488	0	CMakeFiles/pusher.dir/src/main/cpp/pusher.cpp.o	bb7472a6589bdf84
+488	564	0	../../../../build/intermediates/cmake/debug/obj/x86/libpusher.so	56cadb3a50ebf7ed
+2	207	0	CMakeFiles/pusher.dir/src/main/cpp/pusher.cpp.o	bb7472a6589bdf84
+207	333	0	../../../../build/intermediates/cmake/debug/obj/x86/libpusher.so	56cadb3a50ebf7ed
+1	185	0	CMakeFiles/pusher.dir/src/main/cpp/pusher.cpp.o	bb7472a6589bdf84
+185	255	0	../../../../build/intermediates/cmake/debug/obj/x86/libpusher.so	56cadb3a50ebf7ed
+1	189	0	CMakeFiles/pusher.dir/src/main/cpp/pusher.cpp.o	bb7472a6589bdf84
+189	257	0	../../../../build/intermediates/cmake/debug/obj/x86/libpusher.so	56cadb3a50ebf7ed

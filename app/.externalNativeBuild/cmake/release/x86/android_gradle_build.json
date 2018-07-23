@@ -1,0 +1,101 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/lizheng/demo/LivePusher/app/CMakeLists.txt",
+		"/Users/lizheng/demo/LivePusher/app/src/main/cpp/include/librtmp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/lizheng/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"faac-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "faac",
+			"buildType" : "release",
+			"output" : "/Users/lizheng/demo/LivePusher/app/src/main/cpp/lib/x86/libfaac.a",
+			"toolchain" : "15974162775137664144"
+		},
+		"pusher-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "pusher",
+			"buildCommand" : "/Users/lizheng/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86 --target pusher",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/lizheng/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot  -Dpusher_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/lizheng/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/lizheng/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/lizheng/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=9 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lizheng/demo/LivePusher/app/src/main/cpp/pusher.cpp",
+					"workingDirectory" : "/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/lizheng/demo/LivePusher/app/build/intermediates/cmake/release/obj/x86/libpusher.so",
+			"toolchain" : "15974162775137664144"
+		},
+		"rtmp-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "rtmp",
+			"buildCommand" : "/Users/lizheng/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86 --target rtmp",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/lizheng/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot   -isystem /Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=9 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG       -c ",
+					"src" : "/Users/lizheng/demo/LivePusher/app/src/main/cpp/include/librtmp/amf.c",
+					"workingDirectory" : "/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/lizheng/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot   -isystem /Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=9 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG       -c ",
+					"src" : "/Users/lizheng/demo/LivePusher/app/src/main/cpp/include/librtmp/hashswf.c",
+					"workingDirectory" : "/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/lizheng/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot   -isystem /Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=9 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG       -c ",
+					"src" : "/Users/lizheng/demo/LivePusher/app/src/main/cpp/include/librtmp/log.c",
+					"workingDirectory" : "/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/lizheng/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot   -isystem /Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=9 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG       -c ",
+					"src" : "/Users/lizheng/demo/LivePusher/app/src/main/cpp/include/librtmp/parseurl.c",
+					"workingDirectory" : "/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/lizheng/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot   -isystem /Users/lizheng/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=9 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -DNO_CRYPTO -O2 -DNDEBUG       -c ",
+					"src" : "/Users/lizheng/demo/LivePusher/app/src/main/cpp/include/librtmp/rtmp.c",
+					"workingDirectory" : "/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/lizheng/demo/LivePusher/app/.externalNativeBuild/cmake/release/x86/src/main/cpp/include/librtmp/librtmp.a",
+			"toolchain" : "15974162775137664144"
+		},
+		"x264-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "x264",
+			"buildType" : "release",
+			"output" : "/Users/lizheng/demo/LivePusher/app/src/main/cpp/lib/x86/libx264.a",
+			"toolchain" : "15974162775137664144"
+		}
+	},
+	"toolchains" : 
+	{
+		"15974162775137664144" : 
+		{
+			"cCompilerExecutable" : "/Users/lizheng/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/lizheng/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
